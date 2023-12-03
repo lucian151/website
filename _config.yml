@@ -1,0 +1,33 @@
+# Dependencies
+highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            Lucian Chapar
+tagline:          ''
+description:      'The personal portfolio of Lucian Chapar'
+url:              https://www.lucianchapar.com/
+baseurl:          ""
+url:              ""
+
+author:
+  name:           'Lucian Chapar'
+  url:            https://github.com/lucian151
+
+plugins: 
+  - jekyll-paginate
+  - jekyll-seo-tag
+
+paginate:         5
+
+collections:
+  projects:
+    output: true
+
+# Custom vars
+version:          2.1.0
+
+github:
+  repo:           https://github.com/lucian151/website
